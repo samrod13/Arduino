@@ -92,7 +92,7 @@ void loop() {
     left(45);
     }*/
   //----- ECE 202 -----
-  /*//E
+  //E
   forward(horizArm); right(90); forward(vertArm * 2); right(90); forward(horizArm); penup(); right(90); forward(vertArm); right(90); forward(horizArm * 0.4); pendown(); forward(horizArm * 0.6); penup();
 
   right(90); forward(vertArm); right(90); forward(horizArm + WhiteSpace + horizArm); right(180);
@@ -113,7 +113,7 @@ void loop() {
 
   left(90); forward(horizArm + WhiteSpace); left(90); forward(vertArm * 2); right(90);
   //2
-  pendown(); forward(horizArm); right(90); forward(vertArm); right(90); forward(horizArm); left(90); forward(vertArm); left(90); forward(horizArm); penup();*/
+  pendown(); forward(horizArm); right(90); forward(vertArm); right(90); forward(horizArm); left(90); forward(vertArm); left(90); forward(horizArm); penup();
 
   done();      // releases stepper motor
   while (1);   // wait for reset
